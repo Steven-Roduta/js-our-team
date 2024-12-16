@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEAM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div id="list"></div> <!-- Contenitore dinamico per le card -->
+
+    <div class="container">
+        <section id="good-team" class="team">
+            <h2 style="font-size: 70px;">Our Team</h2>
+            <p class="text-base" style="font-size: 25px;">
+                Our team is a group of dedicated professionals working together to achieve innovative solutions.
+                We combine diverse skills and expertise to tackle challenges and deliver high-quality results.
+                With a collaborative spirit, we are focused on driving success and continuous improvement in everything we do.
+            </p>
+
+            <form class="form" id="iscrizione">
+
+                <h3>Be part of our team</h3>
+                <!-- Nome e Cognome -->
+                <div class="form-group">
+                    <label for="name" placeholder="Name & Surname">Name & Surname</label>
+                    <input type="text" id="name" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px;">
+                </div>
+
+                <!-- Km da percorrere -->
+                <div class="form-group">
+                    <label for="role" placeholder="Your age">Age</label>
+                    <input type="number" id="km" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px;">
+                </div>
+
+                <!-- Fascia d'età -->
+                <div class="form-group">
+                    <label for="scelta" aria-placeholder="Job">Select your Job</label>
+                    <select id="scelta" style="width: 100%; padding: 10px; margin-bottom: 20px; border-radius: 4px;">
+                        <option value="opt1">Web Developer</option> 
+                        <option value="opt2">Social Management</option> 
+                        <option value="opt3">Back-End Developer</option> 
+                        <option value="opt4">Front-End Developer</option> 
+                        <option value="opt5">Web Designer</option> 
+                        <option value="opt6">Security Management</option> 
+
+                    </select>
+                </div>
+
+                <!-- Buttons -->
+                <div class="form-group">
+                    <button type="submit" style="width: 80px; padding: 10px; background-color:#3D52A0; color: white; border: none; border-radius: 4px;">Iscriviti</button>
+                    <button id="resetbtn" type="button" style="width: 80px; padding: 10px; background-color: #3D52A0; color: white; border: none; border-radius: 4px;">Annulla</button>
+                </div>
+            </form>
+        </section>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

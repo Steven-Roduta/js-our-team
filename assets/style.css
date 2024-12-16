@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;                  
+    font-family: Arial, sans-serif;
+    background-color: #ADBBDA;
+}
+
+h2{
+    margin-right: 70px;
+    font-size: 70px;
+    color: #3D52A0;
+    font-weight: bold;  
+}
+
+h3 {
+    display: inline-block;  
+    margin-right: 70px;    
+    font-size: 70px;         
+    color: #3D52A0;         
+    font-weight: bold;       
+}
+
+
+p{
+    display: inline;
+    margin-top: 50px;
+    max-width: 100%;
+    color: #3D52A0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    bottom:80px;
+    
+}
+
+
+.col {
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    width: 250px; 
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+
+.team-info .team-card img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: center; 
+}
+
+.info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.form {
+
+    position: relative;
+    top: 180px;
+    margin-right: 300px;
+    width: 300px;
+    
+}
